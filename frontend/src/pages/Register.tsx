@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 import "./Register.css";
 
 function Register() {
@@ -44,10 +45,9 @@ function Register() {
   return (
     <div className="acc_modal">
       <h1>Create an account</h1>
-      
+
       {message && <p className="status-message">{message}</p>}
       <form onSubmit={handleRegister}>
-
         <input type="text" placeholder="Username (Optional)" />
 
         <input
@@ -76,7 +76,7 @@ function Register() {
       </form>
 
       <p>
-        Already have an account? <a href="/login">Click here to login</a>
+        Already have an account? <Link to="/login">Click here to login</Link>
       </p>
     </div>
   );
