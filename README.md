@@ -26,3 +26,6 @@ cd frontend
 npm install
 npm start
 ```
+#Access to the H2 Database
+```bash
+http://localhost:8080/h2-console
