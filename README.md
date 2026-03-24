@@ -26,8 +26,3 @@ cd frontend
 npm install
 npm start
 ```
-
-
-This is **minimal, simple, and ready to paste** into your `README.md`.  
-
-If you want, I can make an **even shorter one that fits in just 10 lines**—perfect for a super clean GitHub homepage. Do you want me to do that?
